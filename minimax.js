@@ -60,7 +60,7 @@ function gameOver(gameWon) {
 	for (var i = 0; i < cells.length; i++) {
 		cells[i].removeEventListener('click', turnClick, false);
 	}
-	declareWinner(gameWon.player == huPlayer ? "You Win" : "You Lose.");
+	declareWinner(gameWon.player == huPlayer ? "Voce Ganhou!" : "Voce Perdeu.");
 }
 
 function declareWinner(who) {
