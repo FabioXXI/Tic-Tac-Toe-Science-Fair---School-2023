@@ -1,3 +1,7 @@
+#div1 {
+	text-align: bottom;
+	vertical-align: bottom;
+
 td {
 	border:  2px solid #333;
 	height:  100px;
