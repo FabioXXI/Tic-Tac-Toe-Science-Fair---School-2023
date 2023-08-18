@@ -180,16 +180,12 @@ if jogador.letra == "X":
 else:
     computador = "X"
 
-global pComputador
-
 sorteio = randrange(0,3)
 if sorteio == 1:
-    pComputador = False
     while not vitoria():
         jogadorMovi()
         computadorMovi()
 else:
-    pComputador = True
     while not vitoria():
         computadorMovi()
         jogadorMovi()
